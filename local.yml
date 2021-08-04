@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  golang: &goloang
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: test_local_golang
